@@ -1,0 +1,7 @@
+{
+  "name": "adMooH",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
