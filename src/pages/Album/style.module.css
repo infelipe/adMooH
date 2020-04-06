@@ -1,0 +1,17 @@
+.border {
+  border: 1px solid
+    var(
+      --ion-item-border-color,
+      var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13)))
+    );
+}
+
+.col {
+  height: 20vh;
+}
+
+.img {
+  height: 100%;
+  vertical-align: bottom;
+  width: 100%;
+}

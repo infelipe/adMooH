@@ -1,7 +1,7 @@
 {
-  "name": "adMooH",
   "integrations": {
     "capacitor": {}
   },
+  "name": "admooh",
   "type": "react"
 }
