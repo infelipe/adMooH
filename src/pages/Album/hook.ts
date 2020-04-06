@@ -12,7 +12,7 @@ export const useAlbum = (): AlbumProps => {
   const dispatch = useDispatch();
   const { id } = useParams();
   const { data } = useSWR(
-    `http://my-json-server.typicode.com/infelipe/admooh-test-fake-api/photos?albumId=${id}`,
+    `https://my-json-server.typicode.com/infelipe/admooh-test-fake-api/photos?albumId=${id}`,
     fetcher
   );
 

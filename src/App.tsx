@@ -24,7 +24,7 @@ import 'variables.css';
 export const App = () => {
   const dispatch = useDispatch();
   const { data } = useSWR(
-    'http://my-json-server.typicode.com/infelipe/admooh-test-fake-api/albums',
+    'https://my-json-server.typicode.com/infelipe/admooh-test-fake-api/albums',
     fetcher
   );
 
